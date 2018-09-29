@@ -133,10 +133,10 @@ boiling point of water in Kelvin: 373.15
 
 This is our first taste of how larger programs are built:
 we define basic operations,
-then combine them in ever-large chunks to get the effect we want.
+then combine them in ever-larger chunks to get the effect we want.
 Real-life functions will usually be larger than the ones shown here --- typically half a dozen
 to a few dozen lines --- but they shouldn't ever be much longer than that,
-or the next person who reads it won't be able to understand what's going on.
+or the next person who reads the function won't be able to understand what's going on.
 
 ## Tidying up
 
@@ -210,7 +210,7 @@ we can do so in a single line.
 Once we start putting things in functions so that we can re-use them,
 we need to start testing that those functions are working correctly.
 To see how to do this,
-let's write a function to offset a dataset so that it's mean value
+let's write a function to offset a dataset so that its mean value
 shifts to a user-defined value:
 
 ~~~
@@ -728,7 +728,7 @@ readable code!
 >
 > Note that `return` and `print` are not interchangeable.
 > `print` is a Python function that *prints* data to the screen.
-> It enables us, *users*, see the data.
+> It enables us, the *users*, to see the data.
 > `return` statement, on the other hand, makes data visible to the program.
 > Let's have a look at the following function:
 >
